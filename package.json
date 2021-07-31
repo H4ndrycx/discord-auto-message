@@ -1,0 +1,14 @@
+{
+  "name": "discord-auto-message",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Handryc Natan",
+  "license": "ISC",
+  "description": "send messages to friends",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
