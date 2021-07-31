@@ -1,4 +1,4 @@
-align="center">
+<h1 align="center">
   <img src="https://discord.com/assets/f9bb9c4af2b9c32a2c5ee0014661546d.png" alt="discord" width="120px" />
 </h1>
 
