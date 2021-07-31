@@ -93,7 +93,7 @@ async function send_message(){
     const msg = args.join(" ")
     const users = await db.read('./database/users.json')
     let counter = 0
-    
+
     const data = {
         "content": msg,
         "tts": "false",
@@ -115,7 +115,7 @@ async function send_message(){
                 .catch(() => {
                     console.log(`Error to sending to ${users[i].name}`)
                 })
-        
+
 
         }, 1000 * counter)
         counter += Math.floor(Math.random() * 8) + 1
